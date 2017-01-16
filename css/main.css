@@ -1,0 +1,491 @@
+/********************
+FLOAT CLEARFIX
+*********************/
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/********************
+GENERAL
+*********************/
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #27586B;
+}
+
+.container {
+  width: 90%;
+}
+
+div {
+  margin: 0 auto;
+}
+
+h5, h4, h3, h2, h1 {
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  text-align: center;
+  padding: 0 5px;
+  color: #fff;
+  font-size: .9em;
+  line-height: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a:hover {
+  color: #71797c;
+}
+
+a.selected {
+  color: #71797c;
+}
+
+img {
+  max-width: 100%;
+}
+/********************
+HEADING
+*********************/
+
+header {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/********************
+NAVIGATION
+*********************/
+
+nav {
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  background-color: #AA4C39;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  color: white;
+}
+
+
+/********************
+PAGE: INDEX
+*********************/
+
+#biography {
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+#biography img {
+  display: block;
+  margin: auto;
+}
+
+#biography h3 {
+  border-top: solid 2px #AA4C39;
+  padding-top: 10px;
+}
+
+#biography p {
+  padding-bottom: 10px;
+}
+
+/********************
+PAGE: RESOURCES
+*********************/
+
+#resources {
+  width: 85%;
+}
+
+div#resources {
+  border-top: solid 2px #AA4C39;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+#resources h4 {
+  margin-top: 2px;
+}
+
+#resources h5 {
+  margin-top: 40px;
+  margin-bottom: 19px;
+}
+
+#resources h6 {
+  color: #fff;
+  margin-top: 5px;
+}
+
+#resources p {
+  margin-bottom: 10px;
+  max-width: 80%;
+  font-size: .7em;
+}
+
+.resourcesImage {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+div#formativeReading {
+  text-align: center;
+}
+
+
+div#inspiringOrganizations {
+  border-top: solid 2px #AA4C39;
+  text-align: center;
+}
+
+#inspiringOrganizations h4 {
+  margin-top: 13px;
+}
+
+#inspiringOrganizations h5 {
+  background-color: #AA4C39;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.organizationImage {
+  display: block;
+  margin: auto;
+}
+
+div#projects {
+  border-top: solid 2px #AA4C39;
+  width: 85%;
+}
+
+/********************
+PAGE: CV
+*********************/
+
+p#summaryParagraph {
+  color: #AA4C39;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 80%;
+  border: solid 1px #AA4C39;
+  }
+
+#professionalExperience h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 2px #AA4C39;
+  border-bottom: solid 2px #AA4C39;
+}
+
+#professionalExperience h4 {
+  background-color: #AA4C39;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+.experienceLeft {
+  text-align: center;
+}
+
+.experienceRight p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.experienceLeft p {
+  text-align: center;
+}
+
+p.experienceBlurb {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #AA4C39;
+  padding: 20px;
+  max-width: 80%;
+  border: solid 1px #AA4C39;
+}
+
+#education {
+  text-align: center;
+}
+
+#education h2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 2px #AA4C39;
+  border-bottom: solid 2px #AA4C39;
+}
+
+#education h4 {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+div.educationLeft h4 {
+  background-color: #AA4C39;
+  color: #fff;
+  display: inline-block;
+}
+
+.educationRight p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.educationLeft p {
+  text-align: center;
+}
+
+#skills h2 {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: solid 2px #AA4C39;
+}
+
+#skills h3 {
+  border-top: solid 2px #AA4C39;
+  padding-top: 10px;
+}
+
+#skills p {
+  text-align: center;
+}
+
+
+/********************
+FOOTER
+*********************/
+
+footer {
+  padding-top: 10px;
+  border-top: solid 3px #AA4C39;
+  font-size: 0.75em;
+  color: #ccc
+  border-top: solid 3px #AA4C39;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+  }
+
+footer ul li {
+  display: inline-block;
+}
+
+footer p {
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/********************
+MEDIA QUERIES
+*********************/
+
+@media screen and (min-width: 480px) {
+  .header nav ul {
+    max-width: 100%;
+  }
+
+  .header {
+    margin-top: 20px;
+  }
+
+  .header nav li {
+    display: inline-block;
+    max-width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header nav ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+div#resources {
+  border-top: none;
+}
+
+@media screen and (min-width: 660px) {
+ 
+/********************
+HEADER
+*********************/
+
+  .header {
+    background-color: #AA4C39;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .header h1, h2 {
+    text-align: left;
+    display: block;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+
+  .header nav {
+    max-width: 50%;
+    float: right;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .header nav li {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .header nav li + li {
+    border-left: solid 1px #fff;
+  }
+
+  /********************
+  PAGE: INDEX
+  *********************/
+
+  #biography img {
+    float: left;
+    padding-right: 15px;
+  }
+
+  #projects {
+    overflow: hidden;
+  }
+
+  #projectOne {
+    max-width: 49%;
+    float: left;
+  }
+
+  #projectOne p {
+    padding-right: 1%;
+  }
+
+  #projectTwo {
+    max-width: 49%;
+    float: right;
+  }
+
+  #projectTwo p {
+    padding-left: 1%;
+  }
+
+/********************
+  PAGE: CV
+  *********************/
+  div#cv {
+    max-width: 80%;
+  }
+
+  #cv h2 {
+    text-align: center;
+  }
+
+  div#summary {
+    margin: 20px auto;
+  }
+
+  p#summaryParagraph {
+    max-width: 60%;
+  }
+
+  div#professionalExperience {
+    max-width: 100%;
+  }
+
+  .experience {
+    text-align: justify;
+  }
+
+  .experienceLeft, .experienceRight {
+    display: inline-block;
+  }
+
+  .experienceRight {
+    float: right;
+  }
+
+  .experienceLeft p {
+    margin-top: 0;
+  }
+  
+  div.blurb {
+    max-width: 100%;
+  }
+
+  p.experienceBlurb {
+    max-width: 60%;
+    margin-bottom: 40px;
+  }
+}
